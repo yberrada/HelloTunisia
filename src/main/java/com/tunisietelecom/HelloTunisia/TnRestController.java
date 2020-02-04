@@ -11,8 +11,8 @@ public class TnRestController {
 	
 	@GetMapping("/hello")
 	public String getHello() {
-		
-		return "Error";
+		//return "error";
+		return "Welcome to Tunisia Telecom - Microservices Demo";
 		
 	}
 	@GetMapping("/time")
