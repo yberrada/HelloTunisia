@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloTunisiaApplication {
 
 	public static void main(String[] args) {
-		newClass.getValue();
 		SpringApplication.run(HelloTunisiaApplication.class, args);
 	}
 
