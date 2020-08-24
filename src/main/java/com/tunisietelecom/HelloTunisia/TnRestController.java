@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TnRestController {
-	
-	
-	@GetMapping("/hello")
+
+
+	@GetMapping("/blacklist")
 	public String getHello() {
 		//return "error";
-			return "Welcome to Tunisie Telecom - Microservices Demo";
-		
+			return "{{ name:Yusuf, age:30, ID:34564332 },{ name:Hamza, age:22, ID:6434253 }}";
+
 	}
 	@GetMapping("/time")
 	public String getLocalTime() {
